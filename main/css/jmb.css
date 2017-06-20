@@ -1,0 +1,274 @@
+/* anims */
+
+.fade
+{
+        opacity:0.5;
+}
+.fade:hover
+{
+        opacity:1;
+}
+
+.rotate
+{
+        transition:all 0.3s ease;
+}
+
+.rotate:hover
+{
+        -webkit-transform: rotateZ(-30deg);
+        -ms-transform: rotateZ(-30deg);
+        transform: rotateZ(-30deg);
+        transition:all 0.3s ease;
+}
+
+/* portfolio elements */
+
+.sectionbox{
+    position: relative;
+    top:64px;
+    width: 100%;
+    height: 600px;
+}
+
+.sectionbox_title {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 64px;
+	text-align:center;
+	display:block;
+}
+
+.sectionbox_image {
+	position: relative;
+	top: 64px;
+	text-align:center;
+	display:block;
+}
+
+.sectionbox_bullets {
+    position: absolute;
+    top:380px;
+    left: 25%;
+    width: 50%;
+    height: 100%;
+}
+
+.gamebox{
+    position: relative;
+    top:64px;
+	left: 10%;
+    width: 80%;
+    height: 512px;
+    border: 2px solid #000000;
+}
+
+.gamebox_title_1 {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 64px;
+	text-align:center;
+	display:block;
+}
+
+.gamebox_title_2 {
+    position: absolute;
+    top:50px;
+    left: 0%;
+    width: 100%;
+    height: 64px;
+	text-align:center;
+	display:block;
+}
+
+.gamebox_image {
+	position: relative;
+	top: 128px;
+	left: 10%;
+	width: 512px;
+	height: auto;
+	text-align:center;
+	display:block;
+}
+
+.gamebox_bullets {
+    position: absolute;
+    top:128px;
+    left: 50%;
+    width: 40%;
+    height: 60%;
+	border: 2px solid #000000;
+}
+
+.gamebox_bullets_inner {
+    position: relative;
+    top:6%;
+    left: 4%;
+    width: 92%;
+    height: 88%;
+	border: 0px solid #000000;
+}
+
+.portfolio_row {
+    position: relative;
+    top:10%;
+    left: 0%;
+    width: 100%;
+    height: 30%;
+    border: 1px solid #ff0000;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio_page_breaker {
+    position: relative;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 400px;
+}
+
+.portfolio_row_breaker {
+    position: relative;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 8px;
+}
+
+.portfolio_column_a {
+    position: absolute;
+    top:0%;
+    left: 5%;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio_column_b {
+    position: absolute;
+    top:0%;
+    left: 35%;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio_column_c {
+    position: absolute;
+    top:0%;
+    left: 65%;
+    width: 30%;
+    height: 100%;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* My elements */
+
+.main_centred {
+    position: relative;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border: 1px solid #ffffff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.imagepanel {
+    position: relative;
+    top:20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    border: 4px solid #ffffff;
+}
+
+.pic_centred {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jmb_textbox {
+
+    position: absolute;
+    top:20%;
+    left: 20%;
+    width: 60%;
+    height: 60%;
+    border: 8px solid #ff00ff;
+    background:#eee url(http://www.htmlcodes.ws/images/backgrounds/background-image-2.gif) repeat fixed;
+    opacity:0.5
+
+}
+
+
+
+.centerImage
+{
+text-align:center;
+display:block;
+}
+
+.imagepanel_lower {
+    /*background:#eee url(../images/bg_textpanel.png) repeat fixed;*/
+    background:#eee url(../images/bg_textpanel.png) norepeat;
+    position: absolute;
+    left: 20%;
+    top: 75%;
+    width: 60%;
+    text-align: center;
+    opacity:0.5;
+    font-size: 36px;
+   }
+ 
+.textpanel_lower {
+    position: absolute;
+    left: 20%;
+    top: 70%;
+    width: 60%;
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.font_gamebox_title_1 {
+	font-family: Arial;
+	color: black;
+	font-size:32px;
+}
+
+.font_gamebox_title_2 {
+	font-family: Arial;
+	color: black;
+	font-size:24px;
+}
+
+.font_heading {
+	font-family: Arial;
+	color: black;
+	font-size:32px;
+	font-weight: bold;
+}
+
+.font_standard {
+	font-family: Arial;
+	color: black;
+	font-size:32px;
+}
+
+.font_highlight {
+	font-family: Courier;
+	color: yellow;
+	font-size:30px;
+}
+
