@@ -61,7 +61,7 @@
     top:64px;
 	left: 10%;
     width: 80%;
-    height: 512px;
+    height: 45%;
     border: 2px solid #000000;
 }
 
@@ -85,21 +85,33 @@
 	display:block;
 }
 
+.gamebox_video {
+	position: relative;
+	top: 128px;
+	left: 2%;
+	width: 30%;
+	height: 60%;
+	text-align:center;
+	display:block;
+	border: 0px solid #ff0000;
+}
+
 .gamebox_image {
 	position: relative;
 	top: 128px;
-	left: 10%;
-	width: 512px;
-	height: auto;
+	left: 2%;
+	width: 30%;
+	height: 60%;
 	text-align:center;
 	display:block;
+	border: 0px solid #ff0000;
 }
 
 .gamebox_bullets {
     position: absolute;
     top:128px;
-    left: 50%;
-    width: 40%;
+    left: 34%;
+    width: 64%;
     height: 60%;
 	border: 2px solid #000000;
 }
@@ -123,6 +135,14 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+.portfolio_anchor_breaker {
+    position: relative;
+    top:0px;
+    left: 0%;
+    width: 100%;
+    height: 64px;
+}
+
 .portfolio_page_breaker {
     position: relative;
     top:0%;
@@ -136,7 +156,7 @@
     top:0%;
     left: 0%;
     width: 100%;
-    height: 8px;
+    height: 32px;
 }
 
 .portfolio_column_a {
@@ -245,6 +265,7 @@ display:block;
 	font-family: Arial;
 	color: black;
 	font-size:32px;
+	font-weight: bold;
 }
 
 .font_gamebox_title_2 {
