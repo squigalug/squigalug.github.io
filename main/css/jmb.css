@@ -61,7 +61,7 @@
     top:64px;
 	left: 10%;
     width: 80%;
-    height: 45%;
+    height: 400px;
     border: 2px solid #000000;
 }
 
@@ -281,10 +281,16 @@ display:block;
 	font-weight: bold;
 }
 
-.font_standard {
+.font_main_bullets {
 	font-family: Arial;
 	color: black;
 	font-size:32px;
+}
+
+.font_standard {
+	font-family: Arial;
+	color: black;
+	font-size:24px;
 }
 
 .font_highlight {
