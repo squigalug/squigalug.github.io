@@ -1,3 +1,66 @@
+/* header */
+​
+.header {
+    height:146px;
+}
+
+.content {
+    position:absolute;
+    top: 146px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;        
+}​
+
+/* the first item below here does not work in html ????? - leaving this here as a sacrifice to the bug gods */
+.font_card_subname_DUMMY {
+	font-family: Arial;
+	color: blue;
+	font-size:32px;
+	font-weight: bold;
+}
+
+.font_card_subnameX {
+	font-family: Arial;
+	color: blue;
+	font-size:36px;
+	font-weight: bold;
+}
+
+.font_card_subnameY {
+	font-family: Arial;
+	color: black;
+	font-size:16px;
+	font-weight: bold;
+}
+
+.font_card_email {
+	font-family: Arial;
+	color: black;
+	font-size:16px;
+	font-weight: normal;
+}
+
+.headerbox{
+    position: absolute;
+    top: 0px;
+	left: 10%;
+    width: 100%;
+    height: 400px;
+    border: 8px solid #000000;
+}
+
+.headerbox_banner {
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    height: 64px;
+	text-align:center;
+	display:block;
+}
+
 /* anims */
 
 .fade
@@ -26,7 +89,7 @@
 
 .sectionbox{
     position: relative;
-    top:64px;
+    top:0px;
     width: 100%;
     height: 600px;
 }
@@ -43,7 +106,7 @@
 
 .sectionbox_image {
 	position: relative;
-	top: 64px;
+	top: 96px;
 	text-align:center;
 	display:block;
 }
@@ -140,7 +203,7 @@
     top:0px;
     left: 0%;
     width: 100%;
-    height: 64px;
+    height: 0px;
 }
 
 .portfolio_page_breaker {
@@ -299,3 +362,33 @@ display:block;
 	font-size:30px;
 }
 
+
+
+/* header */
+
+a.header-link-button.nav-element {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-bottom: 2px none #fff;
+  border-top-left-radius: 0 0;
+  border-top-right-radius: 0 0;
+  border-bottom-right-radius: 0 0;
+  border-bottom-left-radius: 0 0;
+  background-color: transparent;
+  color: #525252;
+  text-transform: none;
+  letter-spacing: 0;
+  font-family: Arial;
+  color: #ffffff;
+  font-size:24px;
+  font-weight: bold;
+}
+
+a.header-link-button.nav-element:hover {
+  border-bottom-width: 2px;
+  border-bottom-color: #42adff;
+  color: #00ff00;
+}
