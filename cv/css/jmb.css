@@ -128,15 +128,6 @@
     border: 2px solid #000000;
 }
 
-.gameboxIndie{
-    position: relative;
-    top:64px;
-	left: 5%;
-    width: 90%;
-    height: 400px;
-    border: 2px solid #000000;
-}
-
 .gamebox_title_1 {
     position: absolute;
     top:0%;
@@ -170,7 +161,7 @@
 
 .gamebox_image {
 	position: relative;
-	top: 140px;
+	top: 35%;
 	left: 2%;
 	width: 30%;
 	height: 60%;
