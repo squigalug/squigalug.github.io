@@ -131,8 +131,8 @@
 .gameboxIndie{
     position: relative;
     top:64px;
-	left: 10%;
-    width: 80%;
+	left: 5%;
+    width: 90%;
     height: 400px;
     border: 2px solid #000000;
 }
@@ -170,7 +170,7 @@
 
 .gamebox_image {
 	position: relative;
-	top: 40px;
+	top: 140px;
 	left: 2%;
 	width: 30%;
 	height: 60%;
